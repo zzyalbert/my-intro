@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>仲梓源 | 区块链与数字信任技术专家</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="https://x.com/zzyalbert" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/zzyalbert" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://app.ens.domains/name/i1024.eth" target="_blank"><i class="fab fa-ethereum"></i> i1024.eth</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#research">研究方向</a></li>
+                <li><a href="#projects">项目成果</a></li>
+                <li><a href="#publications">专利与论文</a></li>
+                <li><a href="#cv">履历</a></li>
+                <li><a href="#contact">联系方式</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-image">
+                <img src="avatar.jpg" alt="仲梓源照片">
+            </div>
+            <h1>仲梓源</h1>
+            <h2>区块链与数字信任技术专家</h2>
+            <p class="intro">10+年经验，专注于区块链、Web3、安全计算、图数据库与数字身份等方向。曾任职于中科院、蚂蚁金服、火币集团与中国移动，多个开源项目贡献者。</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn primary">联系我</a>
+                <a href="#projects" class="btn secondary">查看项目</a>
+                <a href="#" class="btn secondary" id="download-resume">下载简历</a>
+            </div>
+        </div>
+        <div class="hero-bg"></div>
+    </section>
+
+    <section id="research" class="research">
+        <div class="container">
+            <h2 class="section-title">研究方向</h2>
+            <div class="research-cards">
+                <div class="research-card">
+                    <div class="card-icon"><i class="fas fa-link"></i></div>
+                    <h3>区块链系统架构与共识算法</h3>
+                    <p>专注于高性能区块链架构设计，优化共识算法，提升系统吞吐量与安全性。</p>
+                </div>
+                <div class="research-card">
+                    <div class="card-icon"><i class="fas fa-id-card"></i></div>
+                    <h3>Web3 与数字身份基础设施</h3>
+                    <p>构建去中心化身份系统，实现自主身份管理与隐私保护的数字身份解决方案。</p>
+                </div>
+                <div class="research-card">
+                    <div class="card-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>安全多方计算（MPC/CMP）</h3>
+                    <p>研究零知识证明与安全多方计算协议，实现数据可用不可见的隐私计算框架。</p>
+                </div>
+                <div class="research-card">
+                    <div class="card-icon"><i class="fas fa-database"></i></div>
+                    <h3>分布式存储与图数据库</h3>
+                    <p>设计高性能分布式存储系统与图数据库，解决大规模数据管理与查询挑战。</p>
+                </div>
+                <div class="research-card">
+                    <div class="card-icon"><i class="fas fa-exchange-alt"></i></div>
+                    <h3>数据要素流通与可信计算</h3>
+                    <p>构建数据要素流通基础设施，实现数据安全共享与可信计算环境。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">项目成果</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2022-今</div>
+                    <div class="timeline-content">
+                        <h3>MPC 多签平台</h3>
+                        <p>使用CMP协议实现门限签名，结合TEE与Vault保障安全。该平台支持多链资产管理，实现了高安全性与高可用性的平衡。</p>
+                        <div class="tech-tags">
+                            <span>CMP</span>
+                            <span>TEE</span>
+                            <span>Vault</span>
+                            <span>多链</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2022</div>
+                    <div class="timeline-content">
+                        <h3>模块化高性能公链 CUBE</h3>
+                        <p>提出 Collaborative Rollup 方案，并提交以太坊社区。该方案通过模块化设计显著提升了区块链性能与可扩展性。</p>
+                        <div class="tech-tags">
+                            <span>Rollup</span>
+                            <span>以太坊</span>
+                            <span>Layer2</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2021</div>
+                    <div class="timeline-content">
+                        <h3>HECO 公链性能优化</h3>
+                        <p>TPS 提升 4 倍。通过优化共识算法、交易处理流程与存储机制，显著提升了公链性能指标。</p>
+                        <div class="tech-tags">
+                            <span>HECO</span>
+                            <span>性能优化</span>
+                            <span>TPS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2019-2021</div>
+                    <div class="timeline-content">
+                        <h3>蚂蚁金服区块链平台</h3>
+                        <p>多共识模块设计，PBFT 与 Honeybadger 结合。构建了高性能、高可用的企业级区块链基础设施。</p>
+                        <div class="tech-tags">
+                            <span>PBFT</span>
+                            <span>Honeybadger</span>
+                            <span>企业级区块链</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2017-2019</div>
+                    <div class="timeline-content">
+                        <h3>图数据库与分布式存储</h3>
+                        <p>高可用、低延时系统，基于RocksDB。设计了适用于复杂关系网络分析的图数据库系统。</p>
+                        <div class="tech-tags">
+                            <span>RocksDB</span>
+                            <span>图数据库</span>
+                            <span>分布式存储</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="publications" class="publications">
+        <div class="container">
+            <h2 class="section-title">专利与论文</h2>
+            <div class="publications-container">
+                <div class="publications-column">
+                    <h3>论文</h3>
+                    <div class="publication-item">
+                        <h4>Fast 2-out-of-n ECDSA Threshold Signature</h4>
+                        <p class="publication-meta">IEEE, 2023</p>
+                        <p class="publication-desc">提出了一种高效的ECDSA门限签名方案，显著提升了多方签名的性能。</p>
+                    </div>
+                    <div class="publication-item">
+                        <h4>Blockchain-enabled secure data sharing in Web3.0</h4>
+                        <p class="publication-meta">JCC, 2014</p>
+                        <p class="publication-desc">探讨了区块链技术在Web3环境下安全数据共享的应用与挑战。</p>
+                    </div>
+                </div>
+                <div class="publications-column">
+                    <h3>专利</h3>
+                    <div class="publication-item">
+                        <h4>区块链共识方法</h4>
+                        <p class="publication-meta">2021</p>
+                    </div>
+                    <div class="publication-item">
+                        <h4>分布式密钥派生方法</h4>
+                        <p class="publication-meta">2023</p>
+                    </div>
+                    <div class="publication-item">
+                        <h4>公钥可验证存储方法</h4>
+                        <p class="publication-meta">2023</p>
+                    </div>
+                    <div class="publication-item">
+                        <h4>安全多方计算装置</h4>
+                        <p class="publication-meta">2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cv" class="cv">
+        <div class="container">
+            <h2 class="section-title">履历</h2>
+            <div class="cv-timeline">
+                <div class="cv-item">
+                    <div class="cv-dot"></div>
+                    <div class="cv-date">2023-今</div>
+                    <div class="cv-content">
+                        <h3>中国移动集团数智化部</h3>
+                        <p class="cv-position">应用架构</p>
+                        <p>负责区块链与数字身份基础设施建设，推动Web3技术在企业级应用中的落地。</p>
+                    </div>
+                </div>
+                <div class="cv-item">
+                    <div class="cv-dot"></div>
+                    <div class="cv-date">2021-2023</div>
+                    <div class="cv-content">
+                        <h3>Huobi Global</h3>
+                        <p class="cv-position">区块链专家/总监</p>
+                        <p>领导HECO公链技术团队，负责核心架构设计与性能优化，推动生态建设。</p>
+                    </div>
+                </div>
+                <div class="cv-item">
+                    <div class="cv-dot"></div>
+                    <div class="cv-date">2017-2021</div>
+                    <div class="cv-content">
+                        <h3>蚂蚁金服</h3>
+                        <p class="cv-position">资深研发</p>
+                        <p>参与蚂蚁区块链平台核心模块设计与实现，负责共识算法优化与安全多方计算研究。</p>
+                    </div>
+                </div>
+                <div class="cv-item">
+                    <div class="cv-dot"></div>
+                    <div class="cv-date">2014-2017</div>
+                    <div class="cv-content">
+                        <h3>中科院计算所</h3>
+                        <p class="cv-position">中级工程师</p>
+                        <p>从事分布式系统与图数据库研究，参与多个国家级科研项目。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills">
+                <h3>技术栈</h3>
+                <div class="skill-categories">
+                    <div class="skill-category">
+                        <h4>主语言</h4>
+                        <div class="skill-tags">
+                            <span>Go</span>
+                            <span>C++</span>
+                            <span>Java</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>区块链</h4>
+                        <div class="skill-tags">
+                            <span>以太坊核心贡献者</span>
+                            <span>MPC协议(GG18/20, CMP)</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>分布式系统</h4>
+                        <div class="skill-tags">
+                            <span>Raft</span>
+                            <span>RocksDB</span>
+                            <span>HBase</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>AI/NLP</h4>
+                        <div class="skill-tags">
+                            <span>LDA</span>
+                            <span>word2vec</span>
+                            <span>SVM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="honors" class="honors">
+        <div class="container">
+            <h2 class="section-title">荣誉奖项</h2>
+            <div class="honors-list">
+                <div class="honor-item">
+                    <div class="honor-icon"><i class="fas fa-trophy"></i></div>
+                    <div class="honor-content">
+                        <h3>数字身份创新应用大赛 三等奖</h3>
+                        <p class="honor-year">2024</p>
+                    </div>
+                </div>
+                <div class="honor-item">
+                    <div class="honor-icon"><i class="fas fa-trophy"></i></div>
+                    <div class="honor-content">
+                        <h3>"鼎新杯"区块链挑战赛 三等奖</h3>
+                        <p class="honor-year">2024</p>
+                    </div>
+                </div>
+                <div class="honor-item">
+                    <div class="honor-icon"><i class="fas fa-award"></i></div>
+                    <div class="honor-content">
+                        <h3>火币技术大牛奖</h3>
+                        <p class="honor-year">2022</p>
+                    </div>
+                </div>
+                <div class="honor-item">
+                    <div class="honor-icon"><i class="fas fa-award"></i></div>
+                    <div class="honor-content">
+                        <h3>蚂蚁新势力</h3>
+                        <p class="honor-year">2020</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">联系方式</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fab fa-twitter"></i></div>
+                    <div class="contact-text">
+                        <h3>X</h3>
+                        <a href="https://x.com/zzyalbert" target="_blank">@zzyalbert</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fab fa-github"></i></div>
+                    <div class="contact-text">
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/zzyalbert" target="_blank">zzyalbert</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <div class="contact-text">
+                        <h3>邮箱</h3>
+                        <a href="mailto:zhongziyuan@chinamobile.com">zhongziyuan@chinamobile.com</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fab fa-ethereum"></i></div>
+                    <div class="contact-text">
+                        <h3>ENS</h3>
+                        <a href="https://app.ens.domains/name/i1024.eth" target="_blank">i1024.eth</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 仲梓源. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://x.com/zzyalbert" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/zzyalbert" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
